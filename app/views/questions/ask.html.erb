@@ -1,0 +1,22 @@
+<!--
+1. display the question you ask your coach as well as his answer.
+
+2. The controller will need to read the question from params
+
+3. compute an instance variable @answer for the view to display.  -->
+<div class="main-container">
+  <h1>My Questions</h1>
+  <h2>Submit a questions</h2>
+  <div class="form-group" class="card">
+    <form action="/answer" method="get">
+     <!--  <% hidden_field_tag :authenticity_token, form_authenticity_token %> -->
+
+        <input type="text" name="your_question" placeholder="Your Questions" class="form-control">
+        <input type="submit" class="form-control" id="btn">
+
+    </form>
+  </div>
+</div>
+
+
+
